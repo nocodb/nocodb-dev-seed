@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "upgrade": "npm uninstall --save nocodb && npm install --save nocodb"
+    "upgrade": "npm uninstall --save nocodb-daily && npm install --save nocodb-daily"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,6 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "nocodb": "^0.91.1"
+    "nocodb-daily": "^0.91.7-20220608-0605"
   }
 }
